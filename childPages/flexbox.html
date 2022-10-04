@@ -27,30 +27,33 @@
                     box-sizing: border-box;
                     font-size:2vw;
                 }
+                
                 div {border: thin dotted red;}
+                
                 .header {
                     border: 1px solid green;
                     padding: 15 px;
                 }
+                
                 .menu {
                     width: 25%;
-                    float: center;
+                    float: left;
                     padding: 15px;
-                    border: 1px solid rgb(255, 0, 0)
-
+                    border: 1px solid blue
                 }
 
                 .main {
                      width: 50%;
-                    float: right;
+                    float: left;
                     padding: 15px;
-                    border: 1px solid rgb(255, 238, 0)}
+                    border: 1px solid blue
+                }
 
                 .aside {
                     width: 25%;
-                    float: center;
+                    float: left;
                     padding: 15px;
-                    border: 1px solid rgb(17, 0, 255)
+                    border: 1px solid blue
                 }
 
                 .footer {}
@@ -64,9 +67,10 @@
 
     <body>
         <div><header clear="header"><h1>Flexbox lesson</h1> </header></div>
-        <div><nav clear="header"><h1></h1></nav></div>
-        <div><aside><a>This is the aside space</a></aside></div>
-        <div><main><h1>Main space</h1></main></div>
+        <div><nav class="menu"><h1></h1></nav></div>
+        <div>
+            <aside class="aside"><a>This is the aside space</a></aside></div>
+        <div><main class="main"><h1>Main space</h1></main></div>
         <div><section>Section</section></div>
         <div><article>Artical</article></div>
         <div><footer></footer></div>
