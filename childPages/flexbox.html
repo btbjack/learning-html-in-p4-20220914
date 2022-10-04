@@ -32,10 +32,29 @@
                     border: 1px solid green;
                     padding: 15 px;
                 }
-                .menu {}
-                .main {}
-                .aside {}
+                .menu {
+                    width: 25%;
+                    float: left;
+                    padding: 15px;
+                    border: 1px solid rgb(255, 0, 0)
+
+                }
+
+                .main {
+                     width: 50%;
+                    float: left;
+                    padding: 15px;
+                    border: 1px solid rgb(255, 238, 0)}
+
+                .aside {
+                    width: 25%;
+                    float: left;
+                    padding: 15px;
+                    border: 1px solid rgb(17, 0, 255)
+                }
+
                 .footer {}
+
             </style>
 
             <!--- Cyber Security Note about JavaScript in Browsers-->
@@ -44,12 +63,12 @@
     </head>
 
     <body>
-        <div><header><h1>Flexbox lesson</h1> </header></div>
-        <div><nav><h1></h1></nav></div>
-        <div><aside><a></a></aside></div>
-        <div><main><h1></h1></main></div>
-        <div><section></section></div>
-        <div><article></article></div>
+        <div><header clear="header"><h1>Flexbox lesson</h1> </header></div>
+        <div><nav clear="header"><h1></h1></nav></div>
+        <div><aside><a>This is the aside space</a></aside></div>
+        <div><main><h1>Main space</h1></main></div>
+        <div><section>Section</section></div>
+        <div><article>Artical</article></div>
         <div><footer></footer></div>
     </body>
 
